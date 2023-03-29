@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BCP</string>
+    <string name="perimeter_se">Perimeter SE</string>
+    <string name="smoothness_se">Smoothness SE</string>
+    <string name="concavity_se">Concavity SE</string>
+    <string name="concave_points_se">Concave Points SE</string>
+    <string name="symmetry_se">Symmetry SE</string>
+    <string name="fractal_dimension_se">Fractal Dimension SE</string>
+    <string name="smoothness_worst">Smoothness Worst</string>
+    <string name="prediction_result_will_be_displayed_here">Prediction result will be displayed here</string>
+    <string name="submit">Submit</string>
+    <string name="lymph_node_status">Lymph Node Status</string>
+    <string name="tumor_size">Tumor Size</string>
+    <string name="symmetry_worst">Symmetry Worst</string>
+    <string name="concave_points_worst">Concave Points Worst</string>
+    <string name="compactness_worst">Compactness Worst</string>
+    <string name="time">Time</string>
+    <string name="radius_mean">Radius Mean</string>
+    <string name="texture_mean">Texture Mean</string>
+    <string name="smoothness_mean">Smoothness Mean</string>
+    <string name="compactness_mean">Compactness Mean</string>
+    <string name="concave_points_mean">Concave Points Mean</string>
+    <string name="symmetry_mean">Symmetry Mean</string>
+    <string name="fractal_dimension_mean">Fractal Dimension Mean</string>
+    <string name="texture_se">Texture SE</string>
+</resources>

@@ -1,0 +1,193 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/time_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/time"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."/>
+
+    <EditText
+        android:id="@+id/radius_mean_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/radius_mean"/>
+
+    <EditText
+        android:id="@+id/texture_mean_input"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:layout_height="wrap_content"
+        android:hint="@string/texture_mean"/>
+
+    <EditText
+        android:id="@+id/smoothness_mean_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/smoothness_mean"/>
+
+    <EditText
+        android:id="@+id/compactness_mean_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/compactness_mean"/>
+
+    <EditText
+        android:id="@+id/concave_points_mean_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/concave_points_mean"/>
+
+    <EditText
+        android:id="@+id/symmetry_mean_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/symmetry_mean"/>
+
+    <EditText
+        android:id="@+id/fractal_dimension_mean_input"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:layout_height="wrap_content"
+        android:hint="@string/fractal_dimension_mean"/>
+
+    <EditText
+        android:id="@+id/texture_se_input"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/texture_se"/>
+
+    <EditText
+        android:id="@+id/perimeter_se_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/perimeter_se"/>
+
+    <EditText
+        android:id="@+id/smoothness_se_input"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:layout_height="wrap_content"
+        android:hint="@string/smoothness_se"/>
+
+    <EditText
+        android:id="@+id/concavity_se_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/concavity_se"/>
+
+    <EditText
+        android:id="@+id/concave_points_se_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/concave_points_se"/>
+
+    <EditText
+        android:id="@+id/symmetry_se_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/symmetry_se"/>
+
+    <EditText
+        android:id="@+id/fractal_dimension_se_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/fractal_dimension_se"/>
+
+    <EditText
+        android:id="@+id/smoothness_worst_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/smoothness_worst"/>
+
+    <EditText
+        android:id="@+id/compactness_worst_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+         android:hint="@string/compactness_worst"/>
+
+    <EditText
+        android:id="@+id/concave_points_worst_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/concave_points_worst"/>
+
+    <EditText
+        android:id="@+id/symmetry_worst_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/symmetry_worst"/>
+
+    <EditText
+        android:id="@+id/tumor_size_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/tumor_size"/>
+
+    <EditText
+        android:id="@+id/lymph_node_status_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:hint="@string/lymph_node_status"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"/>
+
+    <TextView
+        android:id="@+id/prediction_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF5722"/>
+
+</LinearLayout>
+</ScrollView>
+
